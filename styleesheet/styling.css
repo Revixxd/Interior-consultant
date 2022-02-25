@@ -1,0 +1,115 @@
+body{
+    background-color: #181719;
+}
+
+h1, h2, h3, p{
+    color: #ffffff;
+}
+
+.header-icon{
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+}
+.header-icon h1{
+    font-size: 20px;
+    font-family: 'Crimson Pro', serif;
+    margin: 10px;
+}
+
+.header-navBar{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    margin-right: 5vw;
+}
+
+.header-navBar button{
+    
+
+    border-style: none;
+    background-color: #181719;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.header-navBar button:hover{
+    font-weight: 700;
+}
+
+.container-textDiv h1{
+    margin-bottom: 1.8rem;
+    width: 100%;
+    
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.container-textDiv h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.container-textDiv h3{
+    margin-top: 2rem;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.container-imageDiv__bottomInfo{
+    -webkit-box-shadow: 11px 13px 21px -1px rgb(30, 30, 32);
+    -moz-box-shadow: 11px 13px 21px -1px rgb(30, 30, 32);
+    box-shadow: 11px 13px 21px -1px rgb(30, 30, 32);
+}
+.bottomInfo-avatar__image{
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.bottomInfo__uppertext{
+    margin-top: 3%;
+    margin-left: 25px;
+    display: inline-block;
+}
+.bottomInfo__uppertext h1{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.bottomInfo__uppertext h2{
+    color: #828282;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.bottomInfo__bottomText{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Lora', serif;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;;
+}
+footer p{
+    font-weight: 500;
+    margin: 0px;
+    display: inline-block;
+}
+
+footer a{
+    text-decoration: none;
+    color: #828282;
+}
+
+.footerText{
+    color: #828282;
+    margin-top: 10px;
+}
