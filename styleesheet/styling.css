@@ -2,7 +2,7 @@ body{
     background-color: #181719;
 }
 
-h1, h2, h3, p{
+h1, h2, h3, p, a{
     color: #ffffff;
 }
 
@@ -45,53 +45,91 @@ h1, h2, h3, p{
     
     font-family: 'Lora', serif;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 3rem;
 }
-.container-textDiv h2{
+.container-textDiv__secondText{
+    display: inline-block;
+
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
+    font-weight: 300;
+    font-size: 1.2rem;
 }
 
-.container-textDiv h3{
+.container-textDiv__bottomDiv{
     margin-top: 2rem;
-
+}
+.container-textDiv__bottomDiv:hover img{
+    scale: 1.5;
+    margin-left: 20px;
+    transition: 0.4s;
+}
+.container-textDiv__bottomDiv h3{
+    
+    float: left;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.2rem;
 }
+.container-textDiv__bottomDiv img{
+    margin-left: 10px;
+    transition: 0.4s;
+}
+
+
+
+.container-imageDiv__mainPhoto{
+    width: 45vw;
+}
+
+
 .container-imageDiv__bottomInfo{
     -webkit-box-shadow: 11px 13px 21px -1px rgb(30, 30, 32);
     -moz-box-shadow: 11px 13px 21px -1px rgb(30, 30, 32);
     box-shadow: 11px 13px 21px -1px rgb(30, 30, 32);
 }
-.bottomInfo-avatar__image{
-    width: 60px;
-    border-radius: 50%;
-    margin-left: 20px;
-    margin-top: 10px;
+
+.bottomInfo-upperDiv{
+    padding-top: 5%;
+    margin-bottom: 5%;
 }
 
-.bottomInfo__uppertext{
-    margin-top: 3%;
-    margin-left: 25px;
+.bottomInfo-upperDiv__avatar{
+    margin-left: 20px;
+    float: left;
+}
+.bottomInfo-upperDiv-avatar__img{
+    width: 60px;
+    border-radius: 50%;
+}
+.bottomInfo-upperDiv__text{
     display: inline-block;
-}
-.bottomInfo__uppertext h1{
-    font-size: 18px;
-    font-weight: 500;
+    margin-left: 20px;
+
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
-.bottomInfo__uppertext h2{
+.bottomInfo-upperDiv-text__title{
+    font-size: 1.2em;
+
+    margin-bottom: 10%;
+}
+.bottomInfo-upperDiv-text__title2{
+    font-size: 1em;
     color: #828282;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
 }
-.bottomInfo__bottomText{
-    font-size: 22px;
-    font-weight: 700;
+.bottomInfo-bottom-Div{
+    clear: both;
+
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+
+.bottomInfo-bottom-Div__text h3{
     font-family: 'Lora', serif;
+    font-size: 2em;
+    width: 70%;
 }
 
 footer{

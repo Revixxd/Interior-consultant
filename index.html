@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This Interior</title>
 
+        <!-- Icon Tab -->
+    <link rel="shortcut icon" href="resources/icon.png"/>
+
         <!-- STYLSHEETS -->
     <link rel="stylesheet" href="styleesheet/position.css">
     <link rel="stylesheet" href="styleesheet/styling.css">
@@ -14,19 +17,21 @@
         <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
     <header>
         <div class="header-div__MarginUp">
-            <div class="header-icon">
-                <h1>THIS INTERIOR</h1>
-            </div>
+            <a href="https://revixxd.github.io/Interior-consultant/">
+                <div class="header-icon">
+                    <h1>THIS INTERIOR</h1>
+                </div>
+            </a>
             <div class='header-navBar'>
                 <button>Home</button>
-                <button>Collectio</button>
+                <button>Collection</button>
                 <button>About</button>
                 <button>Contact</button>
             </div>
@@ -37,27 +42,42 @@
 
         <div class="container-textDiv">
             <h1>Modern Interior</h1>
-            <h2>A full-Service residential & commercial interior design and staging company offering professional
-                organizing & eco-services.</h2>
-            <h3>Read more</h3>
-            <!-- po read more dodać pseudoklase zeby wygenerować strzałke -->
+            <p class="container-textDiv__secondText">A full-Service residential & commercial interior design and staging company offering professional
+                organizing & eco-services.</p>
+            <a href="https://github.com/Revixxd" target="_blank">
+                <div class="container-textDiv__bottomDiv">
+                    <h3>Read more</h3>
+                    <img src="resources/arrow.png">
+                </div>
+            </a>
         </div>
 
         <div class="container-imageDiv">
+
             <div class="container-imageDiv__mainPhoto">
                 <img class="imageDiv-mainPhoto__image" src="resources/photo1.jpg"></img>
             </div>
+
             <div class="container-imageDiv__bottomInfo">
-                <div class="bottomInfo__avatar">
-                    <img class="bottomInfo-avatar__image"src="resources/photo2.jpg">
-                </div>
-                <div class="bottomInfo__uppertext">
-                    <h1>Aliza Webber</h1><br>
-                    <h2>Interior designer</h2>
-                </div>
-                <div class="bottomInfo__bottomText">
-                    <h3>Designed in 2020 by <br>Aliza Webber</h3>
-                </div>
+
+                    <div class="bottomInfo-upperDiv">
+
+                        <div class="bottomInfo-upperDiv__avatar">
+                            <img class='bottomInfo-upperDiv-avatar__img' src="resources/photo2.jpg">
+                        </div>
+
+                        <div class="bottomInfo-upperDiv__text">
+                            <p class="bottomInfo-upperDiv-text__title" >Aliza Webber</p>
+                            <p class="bottomInfo-upperDiv-text__title2">Interior designer</p>
+                        </div>
+
+                    </div>
+                    <div class="bottomInfo-bottom-Div">
+                        <div class="bottomInfo-bottom-Div__text">
+                            <h3>Designed in 2020 by Aliza Webber</h3>
+                        </div>
+                    </div>
+
             </div>
 
         </div>
