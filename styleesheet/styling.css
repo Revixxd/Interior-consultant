@@ -45,12 +45,14 @@ h1, h2, h3, p{
     
     font-family: 'Lora', serif;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 3rem;
 }
-.container-textDiv h2{
+.container-textDiv__secondText{
+    display: inline-block;
+
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
+    font-weight: 300;
+    font-size: 1.2rem;
 }
 
 .container-textDiv h3{
@@ -59,6 +61,11 @@ h1, h2, h3, p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.2rem;
+}
+
+.container-textDiv h3::after{
+    content: url(resources/arrow.svg);
+    width: 200px; height: 200px;
 }
 
 .container-imageDiv__mainPhoto{
