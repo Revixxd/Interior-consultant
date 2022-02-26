@@ -33,7 +33,7 @@ footer{
 }
 
 .container{
-    margin-top: 5vh;
+    margin-top: 2%;
 
     height: 80vh;
     position: relative;
@@ -68,9 +68,7 @@ footer{
 .bottomInfo-avatar__image{
     float: left;
 }
-.bottomInfo-uppertext__postion{
 
-}
 .container-imageDiv__bottomInfo{
 
     position: relative;

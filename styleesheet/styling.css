@@ -2,7 +2,7 @@ body{
     background-color: #181719;
 }
 
-h1, h2, h3, p{
+h1, h2, h3, p, a{
     color: #ffffff;
 }
 
@@ -55,18 +55,27 @@ h1, h2, h3, p{
     font-size: 1.2rem;
 }
 
-.container-textDiv h3{
+.container-textDiv__bottomDiv{
     margin-top: 2rem;
-
+}
+.container-textDiv__bottomDiv:hover img{
+    scale: 1.5;
+    margin-left: 20px;
+    transition: 0.4s;
+}
+.container-textDiv__bottomDiv h3{
+    
+    float: left;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.2rem;
 }
-
-.container-textDiv h3::after{
-    content: url(resources/arrow.svg);
-    width: 200px; height: 200px;
+.container-textDiv__bottomDiv img{
+    margin-left: 10px;
+    transition: 0.4s;
 }
+
+
 
 .container-imageDiv__mainPhoto{
     width: 45vw;
