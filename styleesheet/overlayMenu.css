@@ -1,0 +1,69 @@
+.menu_overlay{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    
+    position: absolute; 
+    overflow: hidden;
+    
+    z-index: 100;
+    transform: translateY(0); 
+    /* zmienic na -120%!!! */
+    transition: transform 0.5s ease;
+
+    color: #fff;
+    text-decoration: none;
+
+    background: #181719;
+
+}
+
+.menu_overlay a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+.menu-overlay__buttonDiv{
+    height: 3vh;
+}
+.menu-overlay__button{
+    float: right;
+}
+
+.menu_overlay__listDiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu_overlay__list{
+    justify-content: space-between;
+    display: grid;
+    height: 40vh;
+    
+    justify-content: center;
+
+    padding: 0px;
+
+    list-style-type: none;
+    text-align: center;
+
+
+}
+.menu_overlay-list__button{
+    font-size: 1.6rem;
+}
+
+
+
+
+/* on smaller devices hide navBar and show hamburger div */
+@media only screen and (max-width: 500px) {
+    .header-navBar{
+        display: none;
+    }
+    .header-overLay__button{
+        display: block;
+    }
+}

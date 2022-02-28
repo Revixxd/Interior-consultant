@@ -7,23 +7,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This Interior</title>
 
-        <!-- Icon Tab -->
-    <link rel="shortcut icon" href="resources/icon.png"/>
-
-        <!-- STYLSHEETS -->
+    <!-- STYLSHEETS -->
     <link rel="stylesheet" href="styleesheet/position.css">
     <link rel="stylesheet" href="styleesheet/styling.css">
 
-        <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- overlayMenu Stylesheet -->
+    <link rel="stylesheet" href="styleesheet/overlayMenu.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@500;700&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body>
+
+    <div class="menu_overlay">
+        <div class='menu-overlay__buttonDiv'>
+            <button class="menu-overlay__button">off</button>
+        </div>
+        
+        <div class="menu_overlay__listDiv">
+            <ul class="menu_overlay__list">
+                <li><a class="menu_overlay-list__button" href="#">Home</a></li>
+                <li><a class="menu_overlay-list__button" href="#">Collection</a></li>
+                <li><a class="menu_overlay-list__button" href="#">About</a></li>
+                <li><a class="menu_overlay-list__button" href="#">Contact</a></li>
+            </ul>
+        </div>
+        
+    </div>
+
     <header>
         <div class="header-div__MarginUp">
+            <div class="header-icon">
+                <h1>THIS INTERIOR</h1>
+            </div>
+            <div class="header-overLay">
+                <button class="header-overLay__button">on</button>
+            </div>
+            <div class='header-navBar'>
+                <button >Home</button>
+                <button >Collectio</button>
+                <button >About</button>
+                <button >Contact</button>
             <a href="https://revixxd.github.io/Interior-consultant/">
                 <div class="header-icon">
                     <h1>THIS INTERIOR</h1>
@@ -59,40 +89,33 @@
             </div>
 
             <div class="container-imageDiv__bottomInfo">
-
-                    <div class="bottomInfo-upperDiv">
-
-                        <div class="bottomInfo-upperDiv__avatar">
-                            <img class='bottomInfo-upperDiv-avatar__img' src="resources/photo2.jpg">
-                        </div>
-
-                        <div class="bottomInfo-upperDiv__text">
-                            <p class="bottomInfo-upperDiv-text__title" >Aliza Webber</p>
-                            <p class="bottomInfo-upperDiv-text__title2">Interior designer</p>
-                        </div>
-
-                    </div>
-                    <div class="bottomInfo-bottom-Div">
-                        <div class="bottomInfo-bottom-Div__text">
-                            <h3>Designed in 2020 by Aliza Webber</h3>
-                        </div>
-                    </div>
+                <div class="bottomInfo__avatar">
+                    <img class="bottomInfo-avatar__image" src="resources/photo2.jpg">
+                </div>
+                <div class="bottomInfo__uppertext">
+                    <h1>Aliza Webber</h1><br>
+                    <h2>Interior designer</h2>
+                </div>
+                <div class="bottomInfo__bottomText">
+                    <h3>Designed in 2020 by <br>Aliza Webber</h3>
+                </div>
 
             </div>
 
         </div>
 
-        
+
 
 
 
     </div>
     <footer>
         <p class='footerText'> created by
-            <span> <a href="https://github.com/Revixxd" target="_blank"
-                    class='profileName'><b><u>Revixxd</u></b></a> </span> - <span> <a
-                    href="https://devchallenges.io" target="_blank">devChallenges.io</a> </span> </p>
+            <span> <a href="https://github.com/Revixxd" target="_blank" class='profileName'><b><u>Revixxd</u></b></a>
+            </span> - <span> <a href="https://devchallenges.io" target="_blank">devChallenges.io</a> </span> </p>
     </footer>
+
+    <script src="scripts/overlayMenu.js"></script>
 </body>
 
 </html>
