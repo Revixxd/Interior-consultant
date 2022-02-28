@@ -1,5 +1,5 @@
 .menu_overlay{
-
+    text-align: center;
     width: 100vw;
     height: 100vh;
     
@@ -15,31 +15,48 @@
     text-decoration: none;
 
     background: #181719;
-    background: -webkit-linear-gradient(to right, #ffa751, #ffe259);
-    background: linear-gradient(to right, #ffa751, #ffe259);
 
 }
+
+.menu_overlay a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
 .menu-overlay__buttonDiv{
-    float: right;
+    height: 3vh;
 }
 .menu-overlay__button{
-
+    float: right;
 }
 
+.menu_overlay__listDiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .menu_overlay__list{
-    clear: both;
+    justify-content: space-between;
+    display: grid;
+    height: 40vh;
+    
+    justify-content: center;
 
-
-    margin-top: 20%;
+    padding: 0px;
 
     list-style-type: none;
     text-align: center;
-    border-style: solid;
-}
 
-.menu_overlay__list a{
 
 }
+.menu_overlay-list__button{
+    font-size: 1.6rem;
+}
+
+
+
 
 /* on smaller devices hide navBar and show hamburger div */
 @media only screen and (max-width: 500px) {
