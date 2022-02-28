@@ -4,6 +4,21 @@
 }
 
 
+
+
+
+.header-overLay__button{
+    display: none;
+}
+
+.header-overLay{
+    display: block;
+    float: right;
+  }
+
+
+
+  
 h1{
     margin: 0px;
     
@@ -20,9 +35,9 @@ footer{
 /* .header-icon{
     
 } */
-.header-div__MarginUp{
+/* .header-div__MarginUp{
     margin-top: 4vh;
-}
+} */
 .header-icon{
     display: inline-block;
     margin-left: 5vw;
