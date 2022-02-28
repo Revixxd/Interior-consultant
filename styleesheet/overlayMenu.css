@@ -58,7 +58,7 @@
 
 
 /* on smaller devices hide navBar and show hamburger div */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
     .header-navBar{
         display: none;
     }
