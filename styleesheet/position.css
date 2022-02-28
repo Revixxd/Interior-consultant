@@ -38,16 +38,18 @@ footer{
 /* .header-div__MarginUp{
     margin-top: 4vh;
 } */
+
 .header-icon{
     display: inline-block;
     margin-left: 5vw;
 }
 .header-navBar{
-    padding-top: 22px;
+    padding-top: 23px;
     float: right;
 }
 
 .container{
+    margin-top: 2%;
 
     height: 80vh;
     position: relative;
@@ -71,9 +73,7 @@ footer{
     float: left;
 }
 
-.container-imageDiv__mainPhoto{
-    width: 50vw;
-}
+
 
 
 .imageDiv-mainPhoto__image{
@@ -82,9 +82,9 @@ footer{
 }
 
 .bottomInfo-avatar__image{
-    
     float: left;
 }
+
 .container-imageDiv__bottomInfo{
 
     position: relative;
