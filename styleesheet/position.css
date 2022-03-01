@@ -60,7 +60,6 @@ footer{
     justify-content: space-between;
 }
 .container{
-    position: relative;
 
     clear: both;
     display: flex;
@@ -95,9 +94,9 @@ footer{
 
 .container-imageDiv__bottomInfo{
 
-    position: absolute;
-    bottom: -100px;
-    left: 65%;
+    position: relative;
+    bottom: 100px;
+    left: 25%;
     width: 30vw;
 
     background-color: #181719;
