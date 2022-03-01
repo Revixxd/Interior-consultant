@@ -155,9 +155,15 @@ a {
 }
 
 footer {
+
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    ;
+}
+
+.footer_Position{
+    position: absolute;
+    bottom: 20px;
+    width: 100vw;
 }
 
 footer p {
