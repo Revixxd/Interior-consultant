@@ -23,12 +23,6 @@ a {
     margin: 10px;
 }
 
-.header-navBar {
-    display: flex;
-    justify-content: space-between;
-    width: 55%;
-    margin-right: 5vw;
-}
 
 .header-navBar button {
 
@@ -57,10 +51,13 @@ a {
 
 .container-textDiv__secondText {
     display: inline-block;
+    width: 80%;
 
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
+
+    
 }
 
 .container-textDiv__bottomDiv {
@@ -72,7 +69,10 @@ a {
     margin-left: 20px;
     transition: 0.4s;
 }
+.container-textDiv_a{
+    display: inline-block;
 
+}
 .container-textDiv__bottomDiv h3 {
 
     float: left;
@@ -90,10 +90,18 @@ a {
 
 .container-imageDiv__mainPhoto {
     width: 45vw;
+
+    padding-top: 10%;
+
+}
+
+.container-imageDiv__mainPhoto img{
+    border-radius: 5px;
 }
 
 
 .container-imageDiv__bottomInfo {
+    border-radius: 5px;
     box-shadow: 11px 13px 21px -1px rgb(30, 30, 32);
 }
 
@@ -147,9 +155,15 @@ a {
 }
 
 footer {
+
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    ;
+}
+
+.footer_Position{
+    position: absolute;
+    bottom: 20px;
+    width: 100vw;
 }
 
 footer p {
@@ -158,12 +172,8 @@ footer p {
     display: inline-block;
 }
 
-footer a {
+footer a, .footerText {
     text-decoration: none;
     color: #828282;
 }
 
-.footerText {
-    color: #828282;
-    margin-top: 10px;
-}
