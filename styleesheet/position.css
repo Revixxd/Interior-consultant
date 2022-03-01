@@ -30,6 +30,9 @@ header{
 }
 
 footer{
+
+
+
     clear: both;
 }
 /* .header-icon{
@@ -39,19 +42,24 @@ footer{
     margin-top: 4vh;
 } */
 
-.header-icon{
+.header-icon {
     display: inline-block;
     margin-left: 5vw;
 }
-.header-navBar{
-    padding-top: 23px;
-    float: right;
+.header-div__a{
+    display: inline-block;
 }
+.header-navBar{
+    float: right;
 
+    width: 50%;
+    margin-right: 5vw;
+}
+.header-navBar__ButtonDiv{
+    display: flex;
+    justify-content: space-between;
+}
 .container{
-    margin-top: 2%;
-
-    height: 80vh;
     position: relative;
 
     clear: both;
@@ -69,7 +77,7 @@ footer{
     
     margin-top: 10%;
 
-    width: 400px;
+    width: 45%;
     float: left;
 }
 
@@ -87,11 +95,11 @@ footer{
 
 .container-imageDiv__bottomInfo{
 
-    position: relative;
-    bottom: 100px;
-    left: 25%;
-
+    position: absolute;
+    bottom: -100px;
+    left: 65%;
     width: 30vw;
+
     background-color: #181719;
 }
 .bottomInfo__upperText{

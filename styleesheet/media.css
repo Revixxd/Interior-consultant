@@ -13,7 +13,7 @@
     }
     .container-textDiv{
         margin-top: 2%;
-        width: 100vw;
+        width: 90vw;
     }
     .container-textDiv p {
         width: 60%;
@@ -35,13 +35,15 @@
         left: 35%;
         width: 45vw;
     }
+
+    .bottomInfo-bottom-Div__text h3{
+        font-size: 1.2em;
+    }
 }
 
 @media only screen and (max-width:600px) {
     .container-imageDiv__bottomInfo{
         width: 55vw;
     }
-    .bottomInfo-bottom-Div__text h3{
-        font-size: 1.2em;
-    }
+    
 }
