@@ -16,7 +16,7 @@ function windowWidthFooter() {
         windowWidth = window.innerWidth
         if (windowWidth <= 900) {
             removeClass()
-        } else {
+        } if(windowWidth >= 900) {
             footer.classList.add('footer_Position')
         }
 
