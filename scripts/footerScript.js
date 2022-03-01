@@ -1,22 +1,21 @@
 function windowWidthFooter() {
 
     var footer = document.querySelector('[footer]')
-    
-    windowWidth = window.innerWidth
-    function addClass() {
 
+    windowWidth = window.innerWidth
+
+    function removeClass() {
         footer.classList.remove('footer_Position')
     }
 
-    
     if (windowWidth <= 900) {
-        addClass()
+        removeClass()
     }
 
     window.addEventListener('resize', () => {
-
+        windowWidth = window.innerWidth
         if (windowWidth <= 900) {
-            addClass()
+            removeClass()
         } else {
             footer.classList.add('footer_Position')
         }

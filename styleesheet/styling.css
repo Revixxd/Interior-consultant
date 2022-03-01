@@ -172,12 +172,8 @@ footer p {
     display: inline-block;
 }
 
-footer a {
+footer a, .footerText {
     text-decoration: none;
     color: #828282;
 }
 
-.footerText {
-    color: #828282;
-    margin-top: 10px;
-}
