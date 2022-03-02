@@ -8,8 +8,9 @@
     .container{
         display: block;
 
-        margin-left: 2vw;
+        margin-left: 3vw;
         margin-right: 2vw;
+        
     }
     .container-textDiv{
         margin-top: 2%;
@@ -45,7 +46,7 @@
 
 @media only screen and (max-width:600px) {
     .container-imageDiv__bottomInfo{
-        width: 55vw;
+        width: 60vw;
     }
     
 }
