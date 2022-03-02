@@ -27,14 +27,6 @@
 ## Overview
 
 ![screenshot](https://i.imgur.com/2IpfY3n.jpg)
-![screenshot](https://i.imgur.com/2IpfY3n.jpg | width=100)
-![screenshot](https://i.imgur.com/h73QhCM.jpg)
-![screenshot](https://i.imgur.com/y2I76sB.png)
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+<img src="https://i.imgur.com/h73QhCM.jpg" width="60%">
+<img src="https://i.imgur.com/y2I76sB.png" width="60%">
 
