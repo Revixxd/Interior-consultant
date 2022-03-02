@@ -1,5 +1,6 @@
 body {
     background-color: #181719;
+    scrollbar-width: thin;
 }
 
 h1,h2,h3,p,
@@ -7,6 +8,11 @@ a {
     color: #ffffff;
 }
 
+i{
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+}
 .header-div__paddingUp{
     padding-top: 20px;
 }
@@ -23,7 +29,16 @@ a {
     margin: 10px;
 }
 
+.header-overLay__button, .menu-overlay__button{
+    background: transparent;
+    border-style: none;
+    cursor: pointer;
 
+}
+
+.header-overLay__button{
+    margin: 5%;
+}
 .header-navBar button {
 
 

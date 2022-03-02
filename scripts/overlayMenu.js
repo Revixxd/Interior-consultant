@@ -23,5 +23,6 @@ let aButtons = document.querySelectorAll('.menu_overlay-list__button')
 aButtons.forEach(button => {
     button.addEventListener('click', ()=>{
         offOverlay()
+        contaner.style.display = 'block'
     })
 })
