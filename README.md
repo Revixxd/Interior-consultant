@@ -27,6 +27,10 @@
 ## Overview
 
 ![screenshot](https://i.imgur.com/2IpfY3n.jpg)
+<br></br>
+<h3> For smaller display and tablets</h3>
 <img src="https://i.imgur.com/h73QhCM.jpg" width="60%">
-<img src="https://i.imgur.com/y2I76sB.png" width="60%">
+<br></br>
+<h3> For mobile </h3>
+<img src="https://i.imgur.com/y2I76sB.png" width="50%">
 
