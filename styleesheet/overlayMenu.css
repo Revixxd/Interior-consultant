@@ -1,14 +1,14 @@
 .menu_overlay{
     text-align: center;
     width: 100vw;
-    height: 100vh;
+
     
     position: absolute; 
     overflow: hidden;
     
     z-index: 100;
     transform: translateY(-120%); 
-    transition: transform 0.5s ease;
+    transition: transform 0.3s ease;
 
     color: #fff;
     text-decoration: none;
